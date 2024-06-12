@@ -18,18 +18,17 @@ const Navbar = () => {
             </svg>
           </a>
         </li>
-        <li><a href="#" className="w-full flex items-center p-4 hover:bg-gray-200">Blog</a></li>
-        <li><a href="#" className="w-full flex items-center p-4 hover:bg-gray-200">Products</a></li>
-        <li><a href="#" className="w-full flex items-center p-4 hover:bg-gray-200">About</a></li>
-        <li><a href="#" className="w-full flex items-center p-4 hover:bg-gray-200">Forum</a></li>
+        <li><a href="#" className="w-full flex items-center p-4 hover:bg-gray-200">Equinox</a></li>
+        <li><a href="#" className="w-full flex items-center p-4 hover:bg-gray-200">Enspire</a></li>
+        <li><a href="#" className="w-full flex items-center p-4 hover:bg-gray-200">About us</a></li>
         <li><a href="#" className="w-full flex items-center p-4 hover:bg-gray-200">Login</a></li>
       </ul>
       <ul className="flex justify-end items-center w-full list-none">
-        <li className="mr-auto"><a href="#" className="flex items-center h-12 px-8 text-black">Coding2go</a></li>
-        <li className="hidden md:flex"><a href="#" className="flex items-center h-12 px-8 text-black hover:bg-gray-200">Blog</a></li>
-        <li className="hidden md:flex"><a href="#" className="flex items-center h-12 px-8 text-black hover:bg-gray-200">Products</a></li>
-        <li className="hidden md:flex"><a href="#" className="flex items-center h-12 px-8 text-black hover:bg-gray-200">About</a></li>
-        <li className="hidden md:flex"><a href="#" className="flex items-center h-12 px-8 text-black hover:bg-gray-200">Forum</a></li>
+        <li className="mr-auto"><a href="#" className="flex items-center h-12 px-8 text-black">Unitrends</a></li>
+        <li className="hidden md:flex"><a href="#" className="flex items-center h-12 px-8 text-black hover:bg-gray-200">Equinox</a></li>
+        <li className="hidden md:flex"><a href="#" className="flex items-center h-12 px-8 text-black hover:bg-gray-200">Enspire</a></li>
+        <li className="hidden md:flex"><a href="#" className="flex items-center h-12 px-8 text-black hover:bg-gray-200">About us</a></li>
+     
         <li className="hidden md:flex"><a href="#" className="flex items-center h-12 px-8 text-black hover:bg-gray-200">Login</a></li>
         <li className="md:hidden" onClick={showSidebar}>
           <a href="#" className="flex items-center h-12 px-8 text-black">

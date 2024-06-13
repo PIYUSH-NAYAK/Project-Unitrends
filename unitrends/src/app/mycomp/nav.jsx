@@ -84,7 +84,7 @@ const Navbar = () => {
       </ul>
       <ul className="flex justify-end items-center w-full list-none">
         <li className="mr-auto">
-          <a href="#" className="flex items-center h-12 px-8 text-white">
+          <a href="#" className="flex items-center h-12 px-8 text-white text-xl">
             UNITRENDS
           </a>
         </li>

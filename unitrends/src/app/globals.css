@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 /* @import './App.css'; */
+/* Add these styles to remove horizontal scroll */
+html, body {
+  overflow-x: hidden;
+}
+
 
 :root {
   --foreground-rgb: 0, 0, 0;

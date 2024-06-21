@@ -4,24 +4,24 @@
 // src/app/Section2/sec2.jsx
 
 import { useEffect } from 'react';
-// import Typed from 'typed.js';
+import Typed from 'typed.js';
 import Image from 'next/image';
 
 export default function Section2() {
   useEffect(() => {
     // Initialize Typed instance
-    // var typingEffect = new Typed(".multiText", {
-    //   strings: ["Hoodies", "T-Shirts", "Mugs", "and More!"],
-    //   loop: true,
-    //   typeSpeed: 100,
-    //   backSpeed: 80,
-    //   backDelay: 1500,
-    // });
+    var typingEffect = new Typed(".multiText", {
+      strings: ["Hoodies", "T-Shirts", "Mugs", "and More!"],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1500,
+    });
 
     // Clean up function
-  //   return () => {
-  //     typingEffect.destroy(); // Cleanup Typed instance to prevent memory leaks
-  //   };
+    return () => {
+      typingEffect.destroy(); // Cleanup Typed instance to prevent memory leaks
+    };
    }, []);
 
   return (

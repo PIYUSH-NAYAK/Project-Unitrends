@@ -4,25 +4,25 @@
 // src/app/Section2/sec2.jsx
 
 import { useEffect } from 'react';
-// import Typed from 'typed.js';
+import Typed from 'typed.js';
 import Image from 'next/image';
 
 export default function Section2() {
   useEffect(() => {
     // Initialize Typed instance
-    // var typingEffect = new Typed(".multiText", {
-    //   strings: ["Hoodies", "T-Shirts", "Mugs", "and More!"],
-    //   loop: true,
-    //   typeSpeed: 100,
-    //   backSpeed: 80,
-    //   backDelay: 1500,
-    // });
+    var typingEffect = new Typed(".multiText", {
+      strings: ["Hoodies", "T-Shirts", "Mugs", "and More!"],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1500,
+    });
 
     // Clean up function
-  //   return () => {
-  //     typingEffect.destroy(); // Cleanup Typed instance to prevent memory leaks
-  //   };
-   }, []);
+    return () => {
+      typingEffect.destroy(); // Cleanup Typed instance to prevent memory leaks
+    };
+  }, []);
 
   return (
     <div className="w-full min-h-screen bg-black overflow-hidden">
@@ -44,7 +44,7 @@ export default function Section2() {
         {/* Image section */}
         <div className="z-10 w-full lg:w-1/2 mt-10 lg:mt-0">
           <div className="relative h-full w-full flex items-center justify-center transform lg:rotate-y-180">
-            <Image src="/think.png" alt="Positive Thinking" width={600} height={600} className="transform scale-[0.75] lg:scale-[0.5]" />
+            <Image src="" alt="Positive Thinking" width={600} height={600} className="transform scale-[0.75] lg:scale-[0.5]" />
           </div>
         </div>
       </div>

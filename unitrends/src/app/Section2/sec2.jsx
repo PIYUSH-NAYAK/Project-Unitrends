@@ -33,7 +33,7 @@ export default function Section2() {
         {/* Text content */}
         <div className="z-10 w-full lg:w-1/2 px-4 lg:px-0">
           <h1 className="text-3xl lg:text-5xl font-extrabold text-white">
-            Show Your Spirit with Our College Gear: <span className="multiText text-secondary"></span>
+            Show Your Spirit with Our College Gear: <span className="multiText text-typing_text"></span>
           </h1>
         </div>
 

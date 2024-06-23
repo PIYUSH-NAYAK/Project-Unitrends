@@ -1,11 +1,7 @@
-// src/app/Section2/sec2.jsx
-
 "use client";
-// src/app/Section2/sec2.jsx
 
 import { useEffect } from 'react';
 import Typed from 'typed.js';
-import Image from 'next/image';
 
 export default function Section2() {
   useEffect(() => {
@@ -41,10 +37,16 @@ export default function Section2() {
           </h1>
         </div>
 
-        {/* Image section */}
+        {/* SVG section */}
         <div className="z-10 w-full lg:w-1/2 mt-10 lg:mt-0">
           <div className="relative h-full w-full flex items-center justify-center transform lg:rotate-y-180">
-            <Image src="/think.png" alt="Positive Thinking" width={600} height={600} className="transform scale-[0.75] lg:scale-[1]" />
+            <img 
+              src="/section2.svg" 
+              alt="SVG Image" 
+              width={600} 
+              height={600} 
+              className="transform scale-[0.75] lg:scale-[1]" 
+            />
           </div>
         </div>
       </div>

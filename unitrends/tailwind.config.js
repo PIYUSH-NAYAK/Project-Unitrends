@@ -7,10 +7,37 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif']
+      },
+      colors: {
+        primary: '#3d535f',
+        secondary: '#7f00ff',
+        background: '#f3f5f8',
+        
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        
+      },
+      keyframes: {
+        object1: {
+          '50%': {
+            left: '-8%',
+            top: '45%',
+          },
+        },
+        object2: {
+          '50%': {
+            left: '32%',
+            top: '10%',
+          },
+        },
+      },
+      animation: {
+        object1: 'object1 6s linear infinite',
+        object2: 'object2 6s linear infinite',
       },
     },
   },

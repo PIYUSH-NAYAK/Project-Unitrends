@@ -27,8 +27,8 @@ export default function Section2() {
       </nav>
       <div className="relative flex items-center justify-center w-full h-[calc(100vh-80px)] px-5 lg:px-20 overflow-hidden">
         {/* Animated background circles */}
-        <div className="absolute w-[300px] h-[300px] rounded-full left-[6%] top-1/3 bg-gradient-to-r from-secondary to-pink-400 animate-object1 lg:w-[300px] lg:h-[300px]"></div>
-        <div className="absolute w-[100px] h-[100px] rounded-full left-[35%] top-[12%] bg-gradient-to-r from-secondary to-pink-400 animate-object2 lg:w-[100px] lg:h-[100px]"></div>
+        <div className="absolute w-[200px] h-[200px] rounded-full left-[6%] top-1/3 bg-gradient-to-r from-secondary to-pink-400 animate-object1 lg:w-[250px] lg:h-[250px]"></div>
+        <div className="absolute w-[100px] h-[100px] rounded-full left-[35%] top-[12%] bg-gradient-to-r from-secondary to-pink-400 animate-object2 lg:w-[125px] lg:h-[125px]"></div>
         
         {/* Text content */}
         <div className="z-10 w-full lg:w-1/2 px-4 lg:px-0">

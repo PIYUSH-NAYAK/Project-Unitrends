@@ -8,19 +8,17 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'poppins': ['Poppins', 'sans-serif']
+        'poppins': ['Poppins', 'sans-serif'],
       },
       colors: {
         primary: '#3d535f',
         secondary: '#7f00ff',
-        typing_text : '#71E638',
+        typing_text: '#71E638',
         background: '#f3f5f8',
-        
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        
       },
       keyframes: {
         object1: {

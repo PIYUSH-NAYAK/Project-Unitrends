@@ -38,8 +38,8 @@ const AnimatedSection = () => {
   }, []);
 
   return (
-    <div ref={containerRef} className="trigger flex justify-center items-center min-h-screen bg-black relative">
-      {Array.from({ length: 10 }).map((_, i) => ( // Increase the number of circles to 10
+    <div ref={containerRef} className="trigger flex justify-center items-center min-h-screen bg-black relative overflow-hidden z-0">
+      {Array.from({ length: 10 }).map((_, i) => (
         <div
           key={i}
           className="item bg-brand-one w-24 h-24 rounded-full absolute"

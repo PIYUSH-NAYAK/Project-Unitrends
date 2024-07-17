@@ -48,6 +48,20 @@ const AnimatedSection = () => {
       ))}
     </div>
   );
+  
 };
+// return (
+//   <div ref={containerRef} className="trigger flex justify-center items-center min-h-1/2 bg-black relative overflow-hidden z-0">
+//     {Array.from({ length: 10 }).map((_, i) => (
+//       <div
+//         key={i}
+//         className="item bg-brand-one w-24 h-24 rounded-full absolute"
+//         style={{ top: '-100px', left: `${Math.random() * 100}vw` }}
+//       ></div>
+//     ))}
+//   </div>
+// );
+// }
+
 
 export default AnimatedSection;

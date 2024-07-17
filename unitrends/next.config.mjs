@@ -2,7 +2,10 @@
 const nextConfig = {
     images: {
       domains: ['storyset.com'],
+      domains: ['img.daisyui.com'],
+
     },
+    
   };
   
   export default nextConfig;

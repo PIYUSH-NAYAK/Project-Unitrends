@@ -1,0 +1,38 @@
+/* app/mycomp/section3/First.module.css */
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .carousel {
+    position: relative;
+    width: 256px;
+    height: 256px;
+     /* Width of one image */
+    overflow: hidden;
+  }
+  
+  .carouselInner {
+    display: flex;
+    width: calc(256px * 14); /* 7 original images + 7 duplicates */
+  }
+  
+  .carousel1 {
+    animation: scroll 20s linear infinite;
+  }
+  
+  .carousel2 {
+    animation: scroll 25s linear infinite reverse;
+  }
+  
+  .carousel3 {
+    animation: scroll 30s linear infinite;
+  }
+  
+  .carouselInner:hover {
+    animation-play-state: paused;
+  }

@@ -5,6 +5,10 @@ import styles from './First.module.css';
 
 const Slider = () => {
   const images = [
+    // "/ens_hod1.png",
+    // "/ens_hod2.png",
+    // "/ens_t1.png",
+    // "/ens_t2.png",
     "https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
     "https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg",
     "https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg",

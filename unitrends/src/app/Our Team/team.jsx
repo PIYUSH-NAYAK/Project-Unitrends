@@ -6,10 +6,20 @@ const TeamPage = () => {
     {
       name: 'Tanish Moral',
       image: '/Tanish_photo.jpg',
+      linkedin: 'https://www.linkedin.com/in/tanishmoral/',
+      instagram: 'https://www.instagram.com/tanish_moral_gurjar/',
+      github: 'https://github.com/TanishMoral11',
     },
     {
       name: 'Piyush Nayak',
+<<<<<<< HEAD
       image: '/piyush.jpg',
+=======
+      image: '/Piyush.png',
+      linkedin: 'https://www.linkedin.com/in/piyush-nayak-a1678b28b/', // Replace with Piyush's actual LinkedIn URL
+      instagram: 'https://www.instagram.com/peiskos._.1/', // Replace with Piyush's actual Instagram URL
+      github: 'https://github.com/PIYUSH-NAYAK', // Replace with Piyush's actual GitHub URL
+>>>>>>> 9ba6ea75586f89a4f2f2cb68d50918b7683c3a28
     },
   ];
 
@@ -35,13 +45,13 @@ const TeamPage = () => {
               </div>
               <h3 className="text-2xl font-semibold text-white mb-6">{member.name}</h3>
               <div className="flex justify-center space-x-4">
-                <a href="#" className="text-gray-400 hover:text-indigo-400 transition-colors">
+                <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-indigo-400 transition-colors">
                   <FaLinkedin size={24} />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-indigo-400 transition-colors">
+                <a href={member.instagram} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-indigo-400 transition-colors">
                   <FaInstagram size={24} />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-indigo-400 transition-colors">
+                <a href={member.github} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-indigo-400 transition-colors">
                   <FaGithub size={24} />
                 </a>
               </div>

@@ -11,7 +11,7 @@
   .carousel {
     position: relative;
     width: 256px;
-    height: 256px;
+    height: 400px;
      /* Width of one image */
     overflow: hidden;
   }
@@ -22,15 +22,15 @@
   }
   
   .carousel1 {
-    animation: scroll 20s linear infinite;
+    animation: scroll 21s linear infinite;
   }
   
   .carousel2 {
-    animation: scroll 25s linear infinite reverse;
+    animation: scroll 21s linear infinite reverse;
   }
   
   .carousel3 {
-    animation: scroll 30s linear infinite;
+    animation: scroll 21s linear infinite;
   }
   
   .carouselInner:hover {

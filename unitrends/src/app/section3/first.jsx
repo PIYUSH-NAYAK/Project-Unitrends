@@ -18,7 +18,7 @@ const Slider = () => {
   const loopedImages = [...images, ...images];
 
   return (
-    <div className="flex justify-around items-center bg-red-400 h-screen">
+    <div className="flex justify-around items-center bg-black h-screen">
       {[styles.carousel1, styles.carousel2, styles.carousel3].map((carouselStyle, idx) => (
         <div key={idx} className={`${styles.carousel} w-64 overflow-hidden`}>
           <div className={`${styles.carouselInner} ${carouselStyle}`}>

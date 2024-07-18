@@ -6,6 +6,7 @@ import Section2 from './Section2/sec2';
 import AnimatedSection from './AnimatedSection/AnimatedSection';
 import MotiveSection from './MotiveSection/motive'
 import Slider from './section3/first';
+import Alumni from './section4/alumni';
 // import Motive from './MotiveSection/motive';
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <MotiveSection />
       {/* <First/> */}
       <Slider/>
+      <Alumni/>
      
     </div>
   );

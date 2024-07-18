@@ -9,12 +9,12 @@ const TeamPage = () => {
     },
     {
       name: 'Piyush Nayak',
-      image: '/Piyush.png',
+      image: '/piyush.jpg',
     },
   ];
 
   return (
-    <div className="bg-gray-900 min-h-screen py-16 px-4">
+    <div className="bg-black min-h-screen py-16 px-4">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-5xl font-bold text-center text-white mb-4">Our Team</h1>
         <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
@@ -23,7 +23,7 @@ const TeamPage = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {teamMembers.map((member, index) => (
-            <div key={index} className="bg-gray-800 rounded-xl p-8 text-center shadow-lg transform transition duration-500 hover:scale-105">
+            <div key={index} className="bg-black rounded-xl p-8 text-center shadow-lg transform transition duration-500 hover:scale-105">
               <div className="relative w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-indigo-500">
                 <Image
                   src={member.image}

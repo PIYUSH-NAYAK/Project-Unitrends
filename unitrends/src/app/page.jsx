@@ -8,6 +8,7 @@ import MotiveSection from './MotiveSection/motive'
 import Slider from './section3/first';
 import Alumni from './section4/alumni';
 import TeamPage from './Our Team/team'  // Updated import
+import Footer from './footer/footer';
 import FAQ from './FAQs/faq';
 export default function Home() {
   const [animationData, setAnimationData] = useState(null);
@@ -22,6 +23,7 @@ export default function Home() {
       <Alumni/>
       <TeamPage />  {/* Correct usage */}
       <FAQ/>
+      <Footer/>
      
     </div>
   );

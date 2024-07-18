@@ -12,14 +12,7 @@ const TeamPage = () => {
     },
     {
       name: 'Piyush Nayak',
-<<<<<<< HEAD
       image: '/piyush.jpg',
-=======
-      image: '/Piyush.png',
-      linkedin: 'https://www.linkedin.com/in/piyush-nayak-a1678b28b/', // Replace with Piyush's actual LinkedIn URL
-      instagram: 'https://www.instagram.com/peiskos._.1/', // Replace with Piyush's actual Instagram URL
-      github: 'https://github.com/PIYUSH-NAYAK', // Replace with Piyush's actual GitHub URL
->>>>>>> 9ba6ea75586f89a4f2f2cb68d50918b7683c3a28
     },
   ];
 

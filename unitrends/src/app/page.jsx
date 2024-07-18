@@ -4,9 +4,9 @@ import React, { useEffect, useState } from 'react';
 import Navbar from './mycomp/nav';
 import Section2 from './Section2/sec2';
 import AnimatedSection from './AnimatedSection/AnimatedSection';
-import First from './mycomp/section3/first';
 import MotiveSection from './MotiveSection/motive'
-import Motive from './MotiveSection/motive';
+import Slider from './section3/first';
+// import Motive from './MotiveSection/motive';
 
 export default function Home() {
   const [animationData, setAnimationData] = useState(null);
@@ -17,10 +17,11 @@ export default function Home() {
       <Navbar />
       <Section2 />
       <AnimatedSection />
-      <Motive/>
-      <First/>
+      {/* <Motive/> */}
+      {/* <First/> */}
       <MotiveSection />
-      <First/>
+      {/* <First/> */}
+      <Slider/>
      
     </div>
   );

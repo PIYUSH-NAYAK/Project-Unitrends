@@ -61,7 +61,7 @@ export default function Motive() {
               alt="SVG Image" 
               width={400} 
               height={400} 
-              className="transform scale-[0.75] lg:scale-[1] lg:translate-x-1/4" 
+              className="transform scale-[3] lg:scale-[1.5] lg:translate-x-1/4" 
             />
           </div>
         </div>

@@ -4,7 +4,8 @@ import React, { useEffect, useState } from 'react';
 import Navbar from './mycomp/nav';
 import Section2 from './Section2/sec2';
 import AnimatedSection from './AnimatedSection/AnimatedSection';
-import First from '../section3/first';
+import First from './mycomp/section3/first';
+import MotiveSection from './MotiveSection/motive'
 import Motive from './MotiveSection/motive';
 
 export default function Home() {
@@ -18,6 +19,9 @@ export default function Home() {
       <AnimatedSection />
       <Motive/>
       <First/>
+      <MotiveSection />
+      <First/>
+     
     </div>
   );
 }

@@ -114,7 +114,7 @@ const Navbar = () => {
         </li>
         <li className="hidden md:flex">
           <a
-            href="#"
+            href="/Auth"
             className="flex items-center h-12 px-6 text-white hover:bg-blue-600 rounded-full"
           >
             REGISTER
@@ -122,7 +122,7 @@ const Navbar = () => {
         </li>
         <li className="hidden md:flex">
           <a
-            href="#"
+            href=""
             className="flex items-center h-12 px-8 text-white hover:bg-blue-600 rounded-full "
           >
             LOGIN
